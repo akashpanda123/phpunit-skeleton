@@ -1,0 +1,32 @@
+{
+    "name": "akashpanda123/phpunit-skeleton",
+    "description": "PHPUNIT skeleton generator",
+    "autoload": {
+	"psr-0": { "": "src/" },
+	"classmap": ["src/", "vendor" ]
+    },
+    "repositories": {
+	"packagist": false,
+        "php-class-parser":{
+                "type": "package",
+                "package": {
+                        "name": "php-class-parser",
+                        "version" : "v1.0.0",
+                        "source": {
+                                "url": "https://github.com/akashpanda123/php-class-parser.git",
+                                "type": "git",
+                                "reference": "refs/tags/v1.0.0"
+                        }
+                }
+        }
+    },
+    "config": {
+       "secure-http": false
+    },   
+
+    "require": {
+        "php-class-parser": "v1.0.0"
+   }
+
+}
+
