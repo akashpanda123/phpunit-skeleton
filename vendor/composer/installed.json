@@ -1,0 +1,14 @@
+[
+    {
+        "name": "php-class-parser",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/akashpanda123/php-class-parser.git",
+            "reference": "refs/tags/v1.0.0"
+        },
+        "type": "library",
+        "installation-source": "source"
+    }
+]
